@@ -2,96 +2,96 @@
     "users": [
         {
            "id": 1, 
-           "name":,
-           "email":,
-           "competitor":,
-           "image":,  
+           "name": "Eric Berringer",
+           "email": "ericdump@hotmail.com",
+           "competitor": true,
+           "image": ""  
         },
         {
            "id": 2, 
-           "name":,
-           "email":,
-           "competitor":,
-           "image":,  
-        },
+           "name": "Phillip Phan",
+           "email": "phillip@biggestphan.gov",
+           "competitor": true,
+           "image": ""  
+        }
         {
            "id": 3, 
            "name":,
            "email":,
            "competitor":,
-           "image":,  
+           "image": ""  
         },
         {
            "id": 4, 
            "name":,
            "email":,
            "competitor":,
-           "image":,  
+           "image": ""  
         },
         {
            "id": 5, 
            "name":,
            "email":,
            "competitor":,
-           "image":,  
+           "image": "" 
         },
         {
            "id": 6, 
            "name":,
            "email":,
            "competitor":,
-           "image":,  
+           "image": "" 
         },
         {
            "id": 7, 
            "name":,
            "email":,
            "competitor":,
-           "image":,  
+           "image": ""  
         },
         {
            "id": 8, 
            "name":,
            "email":,
            "competitor":,
-           "image":,  
+           "image": "" 
         },
         {
            "id": 9, 
            "name":,
            "email":,
            "competitor":,
-           "image":,  
+           "image": "" 
         },
         {
            "id": 10, 
            "name":,
            "email":,
            "competitor":,
-           "image":,  
+           "image": ""  
         },
         {
            "id": 11, 
            "name":,
            "email":,
            "competitor":,
-           "image":,  
+           "image": "" 
         }
     ],
     "debt": [
         {
             "id": 1,
-            "userId":,
-            "amount":,
-            "description":,
-            "isComplete":
+            "userId": 1,
+            "amount": 170000,
+            "description": "Ouch",
+            "isComplete": false
         },
         {
             "id": 2,
-            "userId":,
-            "amount":,
-            "description":,
-            "isComplete":
+            "userId": 2,
+            "amount": 100000,
+            "description": "Yikes",
+            "isComplete": false
         },
         {
             "id": 3,
@@ -156,5 +156,73 @@
             "description":,
             "isComplete":
         }
+    ],
+    "transactions": [
+        {
+            "id": 1,
+            "userId": 1,
+            "debtId": 1,
+            "amount": 1000
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "debtId": 2,
+            "amount": 500
+        },
+        {
+            "id": 3,
+            "userId":,
+            "debtId":,
+            "amount":
+        },
+        {
+            "id": 4,
+            "userId":,
+            "debtId":,
+            "amount":
+        },
+        {
+            "id": 5,
+            "userId":,
+            "debtId":,
+            "amount":
+        },
+        {
+            "id": 6,
+            "userId":,
+            "debtId":,
+            "amount":
+        },
+        {
+            "id": 7,
+            "userId":,
+            "debtId":,
+            "amount":
+        },
+        {
+            "id": 8,
+            "userId":,
+            "debtId":,
+            "amount":
+        },
+        {
+            "id": 9,
+            "userId":,
+            "debtId":,
+            "amount":
+        },
+        {
+            "id": 10,
+            "userId":,
+            "debtId":,
+            "amount":
+        },
+        {
+            "id": 11,
+            "userId":,
+            "debtId":,
+            "amount":
+        },
     ]
 }
