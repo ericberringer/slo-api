@@ -13,69 +13,20 @@
            "email": "phillip@biggestphan.gov",
            "competitor": true,
            "image": ""  
-        }
+        },
         {
            "id": 3, 
-           "name":,
-           "email":,
-           "competitor":,
+           "name": "Drea Nichole",
+           "email": "drea@nichole.biz",
+           "competitor": true,
            "image": ""  
         },
         {
            "id": 4, 
-           "name":,
-           "email":,
-           "competitor":,
+           "name": "Scott Silver",
+           "email": "scott@silver.com",
+           "competitor": false,
            "image": ""  
-        },
-        {
-           "id": 5, 
-           "name":,
-           "email":,
-           "competitor":,
-           "image": "" 
-        },
-        {
-           "id": 6, 
-           "name":,
-           "email":,
-           "competitor":,
-           "image": "" 
-        },
-        {
-           "id": 7, 
-           "name":,
-           "email":,
-           "competitor":,
-           "image": ""  
-        },
-        {
-           "id": 8, 
-           "name":,
-           "email":,
-           "competitor":,
-           "image": "" 
-        },
-        {
-           "id": 9, 
-           "name":,
-           "email":,
-           "competitor":,
-           "image": "" 
-        },
-        {
-           "id": 10, 
-           "name":,
-           "email":,
-           "competitor":,
-           "image": ""  
-        },
-        {
-           "id": 11, 
-           "name":,
-           "email":,
-           "competitor":,
-           "image": "" 
         }
     ],
     "debt": [
@@ -95,66 +46,10 @@
         },
         {
             "id": 3,
-            "userId":,
-            "amount":,
-            "description":,
-            "isComplete":
-        },
-        {
-            "id": 4,
-            "userId":,
-            "amount":,
-            "description":,
-            "isComplete":
-        },
-        {
-            "id": 5,
-            "userId":,
-            "amount":,
-            "description":,
-            "isComplete":
-        },
-        {
-            "id": 6,
-            "userId":,
-            "amount":,
-            "description":,
-            "isComplete":
-        },
-        {
-            "id": 7,
-            "userId":,
-            "amount":,
-            "description":,
-            "isComplete":
-        },
-        {
-            "id": 8,
-            "userId":,
-            "amount":,
-            "description":,
-            "isComplete":
-        },
-        {
-            "id": 9,
-            "userId":,
-            "amount":,
-            "description":,
-            "isComplete":
-        },
-        {
-            "id": 10,
-            "userId":,
-            "amount":,
-            "description":,
-            "isComplete":
-        },
-        {
-            "id": 11,
-            "userId":,
-            "amount":,
-            "description":,
-            "isComplete":
+            "userId": 3,
+            "amount": 50000,
+            "description": "Too much",
+            "isComplete": false
         }
     ],
     "transactions": [
@@ -172,57 +67,9 @@
         },
         {
             "id": 3,
-            "userId":,
-            "debtId":,
-            "amount":
-        },
-        {
-            "id": 4,
-            "userId":,
-            "debtId":,
-            "amount":
-        },
-        {
-            "id": 5,
-            "userId":,
-            "debtId":,
-            "amount":
-        },
-        {
-            "id": 6,
-            "userId":,
-            "debtId":,
-            "amount":
-        },
-        {
-            "id": 7,
-            "userId":,
-            "debtId":,
-            "amount":
-        },
-        {
-            "id": 8,
-            "userId":,
-            "debtId":,
-            "amount":
-        },
-        {
-            "id": 9,
-            "userId":,
-            "debtId":,
-            "amount":
-        },
-        {
-            "id": 10,
-            "userId":,
-            "debtId":,
-            "amount":
-        },
-        {
-            "id": 11,
-            "userId":,
-            "debtId":,
-            "amount":
-        },
+            "userId": 3,
+            "debtId": 3,
+            "amount": 200
+        }
     ]
 }
