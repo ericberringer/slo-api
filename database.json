@@ -1,0 +1,160 @@
+{
+    "users": [
+        {
+           "id": 1, 
+           "name":,
+           "email":,
+           "competitor":,
+           "image":,  
+        },
+        {
+           "id": 2, 
+           "name":,
+           "email":,
+           "competitor":,
+           "image":,  
+        },
+        {
+           "id": 3, 
+           "name":,
+           "email":,
+           "competitor":,
+           "image":,  
+        },
+        {
+           "id": 4, 
+           "name":,
+           "email":,
+           "competitor":,
+           "image":,  
+        },
+        {
+           "id": 5, 
+           "name":,
+           "email":,
+           "competitor":,
+           "image":,  
+        },
+        {
+           "id": 6, 
+           "name":,
+           "email":,
+           "competitor":,
+           "image":,  
+        },
+        {
+           "id": 7, 
+           "name":,
+           "email":,
+           "competitor":,
+           "image":,  
+        },
+        {
+           "id": 8, 
+           "name":,
+           "email":,
+           "competitor":,
+           "image":,  
+        },
+        {
+           "id": 9, 
+           "name":,
+           "email":,
+           "competitor":,
+           "image":,  
+        },
+        {
+           "id": 10, 
+           "name":,
+           "email":,
+           "competitor":,
+           "image":,  
+        },
+        {
+           "id": 11, 
+           "name":,
+           "email":,
+           "competitor":,
+           "image":,  
+        }
+    ],
+    "debt": [
+        {
+            "id": 1,
+            "userId":,
+            "amount":,
+            "description":,
+            "isComplete":
+        },
+        {
+            "id": 2,
+            "userId":,
+            "amount":,
+            "description":,
+            "isComplete":
+        },
+        {
+            "id": 3,
+            "userId":,
+            "amount":,
+            "description":,
+            "isComplete":
+        },
+        {
+            "id": 4,
+            "userId":,
+            "amount":,
+            "description":,
+            "isComplete":
+        },
+        {
+            "id": 5,
+            "userId":,
+            "amount":,
+            "description":,
+            "isComplete":
+        },
+        {
+            "id": 6,
+            "userId":,
+            "amount":,
+            "description":,
+            "isComplete":
+        },
+        {
+            "id": 7,
+            "userId":,
+            "amount":,
+            "description":,
+            "isComplete":
+        },
+        {
+            "id": 8,
+            "userId":,
+            "amount":,
+            "description":,
+            "isComplete":
+        },
+        {
+            "id": 9,
+            "userId":,
+            "amount":,
+            "description":,
+            "isComplete":
+        },
+        {
+            "id": 10,
+            "userId":,
+            "amount":,
+            "description":,
+            "isComplete":
+        },
+        {
+            "id": 11,
+            "userId":,
+            "amount":,
+            "description":,
+            "isComplete":
+        }
+    ]
+}
