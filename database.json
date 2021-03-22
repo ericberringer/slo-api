@@ -1,75 +1,117 @@
 {
-    "users": [
-        {
-           "id": 1, 
-           "name": "Eric Berringer",
-           "email": "ericdump@hotmail.com",
-           "competitor": true,
-           "image": ""  
-        },
-        {
-           "id": 2, 
-           "name": "Phillip Phan",
-           "email": "phillip@biggestphan.gov",
-           "competitor": true,
-           "image": ""  
-        },
-        {
-           "id": 3, 
-           "name": "Drea Nichole",
-           "email": "drea@nichole.biz",
-           "competitor": true,
-           "image": ""  
-        },
-        {
-           "id": 4, 
-           "name": "Scott Silver",
-           "email": "scott@silver.com",
-           "competitor": false,
-           "image": ""  
-        }
-    ],
-    "debt": [
-        {
-            "id": 1,
-            "userId": 1,
-            "amount": 170000,
-            "description": "Ouch",
-            "isComplete": false
-        },
-        {
-            "id": 2,
-            "userId": 2,
-            "amount": 100000,
-            "description": "Yikes",
-            "isComplete": false
-        },
-        {
-            "id": 3,
-            "userId": 3,
-            "amount": 50000,
-            "description": "Too much",
-            "isComplete": false
-        }
-    ],
-    "transactions": [
-        {
-            "id": 1,
-            "userId": 1,
-            "debtId": 1,
-            "amount": 1000
-        },
-        {
-            "id": 2,
-            "userId": 2,
-            "debtId": 2,
-            "amount": 500
-        },
-        {
-            "id": 3,
-            "userId": 3,
-            "debtId": 3,
-            "amount": 200
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Eric Berringer",
+      "email": "ericdump@hotmail.com",
+      "competitor": true,
+      "image": ""
+    },
+    {
+      "id": 2,
+      "name": "Phillip Phan",
+      "email": "phillip@biggestphan.gov",
+      "competitor": true,
+      "image": ""
+    },
+    {
+      "id": 3,
+      "name": "Drea Nichole",
+      "email": "drea@nichole.biz",
+      "competitor": true,
+      "image": ""
+    },
+    {
+      "id": 4,
+      "name": "Scott Silver",
+      "email": "scott@silver.com",
+      "competitor": false,
+      "image": ""
+    },
+    {
+      "id": 4,
+      "name": "Logan Webb",
+      "email": "Logan420@69.com",
+      "competitor": true,
+      "image": ""
+    },
+    {
+      "email": "Cheo@hardcorecoding.com",
+      "name": "Cheo",
+      "competitor": true,
+      "image": "",
+      "id": 5
+    },
+    {
+      "email": "Billy@william.gov",
+      "name": "Billy",
+      "competitor": true,
+      "image": "",
+      "id": 6
+    }
+  ],
+  "debts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "amount": 155000,
+      "description": "Yowza",
+      "isComplete": false
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "amount": 100000,
+      "description": "Yikes",
+      "isComplete": false
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "amount": 50000,
+      "description": "Too much",
+      "isComplete": false
+    },
+    {
+      "userId": 4,
+      "amount": 18000,
+      "description": "Logan's debt be gone",
+      "isComplete": false,
+      "id": 4
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "amount": 18000,
+      "description": "wow",
+      "isComplete": false
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "amount": 3000,
+      "description": "Congrats",
+      "isComplete": false
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "userId": 1,
+      "debtId": 1,
+      "amount": 1000
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "debtId": 2,
+      "amount": 500
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "debtId": 3,
+      "amount": 200
+    }
+  ]
 }
