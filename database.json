@@ -48,14 +48,28 @@
       "competitor": true,
       "image": "",
       "id": 6
+    },
+    {
+      "email": "user@new.com",
+      "name": "Biff Gordon",
+      "competitor": true,
+      "image": "",
+      "id": 7
+    },
+    {
+      "email": "dylan@lessismorris.com",
+      "name": "Dylan Morris",
+      "competitor": false,
+      "image": "",
+      "id": 8
     }
   ],
   "debts": [
     {
       "id": 1,
       "userId": 1,
-      "amount": 155000,
-      "description": "Yowza",
+      "amount": 140000,
+      "description": "Was it worth it?",
       "isComplete": false
     },
     {
@@ -92,26 +106,21 @@
       "amount": 3000,
       "description": "Congrats",
       "isComplete": false
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "amount": 9000,
+      "description": "University of Phoenix",
+      "isComplete": false
     }
   ],
   "transactions": [
     {
       "id": 1,
-      "userId": 1,
+      "userId": 4,
       "debtId": 1,
-      "amount": 1000
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "debtId": 2,
-      "amount": 500
-    },
-    {
-      "id": 3,
-      "userId": 3,
-      "debtId": 3,
-      "amount": 200
+      "amount": 10000
     }
   ]
 }
