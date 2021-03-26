@@ -29,7 +29,7 @@
       "image": ""
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Logan Webb",
       "email": "Logan420@69.com",
       "competitor": true,
@@ -40,28 +40,35 @@
       "name": "Cheo",
       "competitor": true,
       "image": "",
-      "id": 5
+      "id": 6
     },
     {
       "email": "Billy@william.gov",
       "name": "Billy",
       "competitor": true,
       "image": "",
-      "id": 6
+      "id": 7
     },
     {
       "email": "user@new.com",
       "name": "Biff Gordon",
       "competitor": true,
       "image": "",
-      "id": 7
+      "id": 8
     },
     {
       "email": "dylan@lessismorris.com",
       "name": "Dylan Morris",
       "competitor": false,
       "image": "",
-      "id": 8
+      "id": 9
+    },
+    {
+      "email": "joel@joel",
+      "name": "Joel",
+      "competitor": true,
+      "image": "",
+      "id": 10
     }
   ],
   "debts": [
@@ -69,14 +76,7 @@
       "id": 1,
       "userId": 1,
       "amount": 140000,
-      "description": "Was it worth it?",
-      "isComplete": false
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "amount": 100000,
-      "description": "Yikes",
+      "description": "This debt is from music school",
       "isComplete": false
     },
     {
@@ -87,7 +87,7 @@
       "isComplete": false
     },
     {
-      "userId": 4,
+      "userId": 5,
       "amount": 18000,
       "description": "Logan's debt be gone",
       "isComplete": false,
@@ -95,24 +95,31 @@
     },
     {
       "id": 5,
-      "userId": 5,
+      "userId": 6,
       "amount": 18000,
       "description": "wow",
       "isComplete": false
     },
     {
       "id": 6,
-      "userId": 6,
+      "userId": 7,
       "amount": 3000,
       "description": "Congrats",
       "isComplete": false
     },
     {
       "id": 7,
-      "userId": 7,
-      "amount": 9000,
+      "userId": 8,
+      "amount": 2000,
       "description": "University of Phoenix",
       "isComplete": false
+    },
+    {
+      "userId": 2,
+      "amount": 18000,
+      "description": "Nss",
+      "isComplete": false,
+      "id": 8
     }
   ],
   "transactions": [
@@ -121,6 +128,42 @@
       "userId": 4,
       "debtId": 1,
       "amount": 10000
+    },
+    {
+      "userId": 9,
+      "debtId": 5,
+      "amount": 5000,
+      "id": 3
+    },
+    {
+      "userId": 9,
+      "debtId": 3,
+      "amount": 5000,
+      "id": 4
+    },
+    {
+      "userId": 9,
+      "debtId": 1,
+      "amount": 20000,
+      "id": 5
+    },
+    {
+      "userId": 9,
+      "debtId": 4,
+      "amount": 3000,
+      "id": 6
+    },
+    {
+      "userId": 9,
+      "debtId": 3,
+      "amount": 3000,
+      "id": 7
+    },
+    {
+      "userId": 9,
+      "debtId": 8,
+      "amount": 3000,
+      "id": 8
     }
   ]
 }
