@@ -120,6 +120,13 @@
       "description": "Nss",
       "isComplete": false,
       "id": 8
+    },
+    {
+      "userId": 10,
+      "amount": 30000,
+      "description": "Too Much Tuna",
+      "isComplete": false,
+      "id": 9
     }
   ],
   "transactions": [
@@ -164,6 +171,12 @@
       "debtId": 8,
       "amount": 3000,
       "id": 8
+    },
+    {
+      "userId": 4,
+      "debtId": 8,
+      "amount": 3000,
+      "id": 9
     }
   ]
 }
