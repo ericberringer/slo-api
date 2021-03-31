@@ -37,14 +37,14 @@
     },
     {
       "email": "Cheo@hardcorecoding.com",
-      "name": "Cheo",
+      "name": "Cheo Roman",
       "competitor": true,
       "image": "",
       "id": 6
     },
     {
       "email": "Billy@william.gov",
-      "name": "Billy",
+      "name": "Billy Thukidd",
       "competitor": true,
       "image": "",
       "id": 7
@@ -65,118 +65,184 @@
     },
     {
       "email": "joel@joel",
-      "name": "Joel",
+      "name": "Joel Darling",
       "competitor": true,
       "image": "",
       "id": 10
+    },
+    {
+      "email": "elongate@tesla.biz",
+      "name": "Elon Musk",
+      "competitor": false,
+      "image": "",
+      "id": 11
+    },
+    {
+      "email": "dude@dude.com",
+      "name": "Keiko Brohay",
+      "competitor": true,
+      "image": "",
+      "id": 12
+    },
+    {
+      "email": "guy@guy.com",
+      "name": "Fuy Gieri",
+      "competitor": false,
+      "image": "",
+      "id": 13
+    },
+    {
+      "email": "jeff@amazon.com",
+      "name": "Jeff Bezos",
+      "competitor": false,
+      "image": "",
+      "id": 14
+    },
+    {
+      "email": "mike@mike.com",
+      "name": "mike",
+      "competitor": true,
+      "image": "",
+      "id": 15
     }
   ],
   "debts": [
     {
-      "id": 1,
       "userId": 1,
-      "amount": 140000,
-      "description": "This debt is from music school",
-      "isComplete": false
+      "amount": 150000,
+      "description": "This debt led to a lucrative music career LOL!",
+      "isComplete": false,
+      "id": 1
     },
     {
-      "id": 3,
+      "id": 2,
       "userId": 3,
       "amount": 50000,
-      "description": "Too much",
+      "description": "Student loan debt is from University of the Streets.",
       "isComplete": false
     },
     {
       "userId": 5,
       "amount": 18000,
-      "description": "Logan's debt be gone",
+      "description": "Debt is from 6 years of mustache grooming school.",
       "isComplete": false,
-      "id": 4
+      "id": 3
+    },
+    {
+      "id": 4,
+      "userId": 6,
+      "amount": 18000,
+      "description": "This is fake debt, Cheo was smart enough to stay out of debt.",
+      "isComplete": false
     },
     {
       "id": 5,
-      "userId": 6,
-      "amount": 18000,
-      "description": "wow",
+      "userId": 7,
+      "amount": 3000,
+      "description": "Unpaid debt owed to Little House on the Prairie.",
       "isComplete": false
     },
     {
       "id": 6,
-      "userId": 7,
-      "amount": 3000,
-      "description": "Congrats",
-      "isComplete": false
-    },
-    {
-      "id": 7,
       "userId": 8,
       "amount": 2000,
-      "description": "University of Phoenix",
+      "description": "Like a University of Phoenix from the ashes.",
       "isComplete": false
     },
     {
       "userId": 2,
       "amount": 18000,
-      "description": "Nss",
+      "description": "Phanning the flames of lifetime student loan debt.",
       "isComplete": false,
-      "id": 8
+      "id": 7
     },
     {
       "userId": 10,
       "amount": 30000,
-      "description": "Too Much Tuna",
+      "description": "Everyone wishes they only had this amount of student debt.",
+      "isComplete": false,
+      "id": 8
+    },
+    {
+      "userId": 12,
+      "amount": 63000,
+      "description": "Debt from his fifth time through NSS.",
       "isComplete": false,
       "id": 9
     }
   ],
   "transactions": [
     {
-      "id": 1,
-      "userId": 4,
+      "userId": 11,
       "debtId": 1,
-      "amount": 10000
+      "amount": 1000,
+      "id": 1
     },
     {
-      "userId": 9,
-      "debtId": 5,
-      "amount": 5000,
+      "userId": 4,
+      "debtId": 1,
+      "amount": 2000,
+      "id": 2
+    },
+    {
+      "userId": 4,
+      "debtId": 7,
+      "amount": 3000,
       "id": 3
     },
     {
       "userId": 9,
-      "debtId": 3,
+      "debtId": 7,
       "amount": 5000,
       "id": 4
     },
     {
       "userId": 9,
-      "debtId": 1,
-      "amount": 20000,
+      "debtId": 5,
+      "amount": 50,
       "id": 5
     },
     {
       "userId": 9,
-      "debtId": 4,
-      "amount": 3000,
+      "debtId": 8,
+      "amount": 20000,
       "id": 6
     },
     {
-      "userId": 9,
-      "debtId": 3,
-      "amount": 3000,
+      "userId": 11,
+      "debtId": 1,
+      "amount": 20000,
       "id": 7
     },
     {
-      "userId": 9,
-      "debtId": 8,
+      "userId": 11,
+      "debtId": 2,
       "amount": 3000,
       "id": 8
     },
     {
-      "userId": 4,
-      "debtId": 8,
-      "amount": 3000,
+      "userId": 11,
+      "debtId": 3,
+      "amount": 2500,
       "id": 9
+    },
+    {
+      "userId": 13,
+      "debtId": 1,
+      "amount": 20000,
+      "id": 10
+    },
+    {
+      "userId": 14,
+      "debtId": 8,
+      "amount": 1000,
+      "id": 11
+    },
+    {
+      "userId": 9,
+      "debtId": 1,
+      "amount": 20000,
+      "id": 12
     }
   ]
 }
