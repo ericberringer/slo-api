@@ -100,10 +100,24 @@
     },
     {
       "email": "mike@mike.com",
-      "name": "mike",
+      "name": "Mike Mongobongo",
       "competitor": true,
       "image": "",
       "id": 15
+    },
+    {
+      "email": "pearl@jammedup.com",
+      "name": "Bryan Nilsen",
+      "competitor": false,
+      "image": "",
+      "id": 16
+    },
+    {
+      "email": "milo@bestbud.com",
+      "name": "Milo",
+      "competitor": true,
+      "image": "",
+      "id": 17
     }
   ],
   "debts": [
@@ -243,6 +257,12 @@
       "debtId": 1,
       "amount": 20000,
       "id": 12
+    },
+    {
+      "userId": 16,
+      "debtId": 4,
+      "amount": 750,
+      "id": 13
     }
   ]
 }
