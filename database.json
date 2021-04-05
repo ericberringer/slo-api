@@ -50,8 +50,8 @@
       "id": 7
     },
     {
-      "email": "user@new.com",
-      "name": "Biff Gordon",
+      "email": "milo@bestbud.com",
+      "name": "Milo Thomas",
       "competitor": true,
       "image": "",
       "id": 8
@@ -111,13 +111,6 @@
       "competitor": false,
       "image": "",
       "id": 16
-    },
-    {
-      "email": "milo@bestbud.com",
-      "name": "Milo",
-      "competitor": true,
-      "image": "",
-      "id": 17
     }
   ],
   "debts": [
@@ -176,13 +169,6 @@
       "description": "Everyone wishes they only had this amount of student debt.",
       "isComplete": false,
       "id": 8
-    },
-    {
-      "userId": 12,
-      "amount": 63000,
-      "description": "Debt from his fifth time through NSS.",
-      "isComplete": false,
-      "id": 9
     }
   ],
   "transactions": [
@@ -263,6 +249,18 @@
       "debtId": 4,
       "amount": 750,
       "id": 13
+    },
+    {
+      "userId": 16,
+      "debtId": 2,
+      "amount": 5000,
+      "id": 14
+    },
+    {
+      "userId": 16,
+      "debtId": 3,
+      "amount": 1000,
+      "id": 15
     }
   ]
 }
